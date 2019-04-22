@@ -11,7 +11,7 @@ document.getElementById('ethereum-enable')
   window.ethereum.enable()
 })
 try {
-  document.getElementById('ethjs-personalSign')
+  document.getElementById('web3-personalSign')
   .addEventListener('click', () => {
     web3.eth.getAccounts((err, accounts) => {
       if (err) throw err
