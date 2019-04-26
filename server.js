@@ -1,8 +1,6 @@
 const express = require('express')
 const forceSsl = require('force-ssl-heroku')
-var app = express();
-app.use(forceSsl);
-const app = express()
+var app = express()
 app.use(forceSsl)
 const port = process.env.PORT || 5000
 
